@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #ffffffc4;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: rgb(92, 21, 21);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    color: rgb(92, 21, 21);
+    text-align: left;
+  }
+  
+  .logodireita {
+    display: flex;
+    justify-content: right;
+    right: 100%;
+  }
+  
+  .subtitle {
+    background-color: #20232a;
+    color: white;
+  }
+  
+  .top {
+  display:inline-flex;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  }
+  
+  .top img{
+  width:50%;
+  }
+  
+  .top p {
+      text-align: center;
+      font-weight: bold;
+      color: rgb(92, 21, 21);
+  }
+  
+  .bandeira {
+    width: 8%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .titulo {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .header img {
+    max-height: 80px;
+  }
+  
+  .detalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .detalhes img {
+    max-height: 300px;
+  }
+  

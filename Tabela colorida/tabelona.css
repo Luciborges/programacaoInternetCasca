@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #ddd;
+}
+
+.um, .dois, .tres {
+    color: midnightblues;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quatro{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze {
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.sul-americana {
+    color: #ffeeba;
+}
+
+.rebaixados {
+    color: #f8d7da;
+}
+
+.legenda {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border: 1px solid #888;
+}

@@ -1,0 +1,59 @@
+.titulo {
+    background-color: #0d5188;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.subtitulo{
+    background-color: #66c5e3;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.linhatres{
+    background-color: #c7e7f3;
+
+
+}
+.cidade{
+    background-color: #c7e7f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0d5188;
+
+}
+.um{
+    background-color: gray
+    ;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.tres{
+    background-color: gray
+    ;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.linhaquatro{
+    background-color: #c7e7f3;
+
+
+}
+.dois{
+    background-color: gray
+    ;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.quatro{
+    background-color: gray
+    ;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
