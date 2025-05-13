@@ -11,4 +11,5 @@ function trocarTexto(){
 
 btTrocaTexto.onclick = function(){
     trocarTexto();
+    
 }
