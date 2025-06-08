@@ -1,0 +1,210 @@
+<html>
+    <head>
+      <title>Trabalho segundo Bimestre</title>
+      <link rel="stylesheet" href="trabalho.css">
+    </head>
+    <body>
+        <div class="todos">
+          <h1>Classificador de Triangulos</h1>
+          <label for="valorX">Lado X:</label><br>
+          <input id="valorX" type="number"><br><br>
+      
+          <label for="valorY">Lado Y:</label><br>
+          <input id="valorY" type="number"><br><br>
+      
+          <label for="valorZ">Lado Z:</label><br>
+          <input id="valorZ" type="number"><br><br>
+
+        <button id="btfinalizar">Qual e o triangulo?</button>
+
+        <p id="resultado"></p>
+
+        </div>
+        <br><hr><br>
+
+        <div class="todos">
+          <h1> Calculando IMS</h1>
+
+          <label for="inputpeso">Peso (KG):</label><br>
+          <input id="inputpeso" type="number"><br><br>
+      
+          <label for="inputaltura">Altura (M):</label><br>
+          <input id="inputaltura" type="number"><br><br>
+          
+          <button id="btresultado">resultado</button>
+          <p id="ResultadoIMC"></p>
+        </div>
+        <br><hr><br>
+
+        <div class="todos">
+          <h1>Calculadora DETRAN</h1>
+        
+          <label for="anoCarro">Ano do Carro:</label><br>
+          <input id="anoCarro" type="number" min="1900" max="2100"><br><br>
+        
+          <label for="valorTabela">Valor de Tabela (R$):</label><br>
+          <input id="valorTabela" type="text"><br><br>
+        
+          <button id="btCalcularImposto">Calcular Imposto</button>
+          <p id="resultadoImposto"></p>
+        </div>
+        <br><hr><br>
+
+        <div class="todos">
+          <h1>Calculadora de Salário</h1>
+        
+          <label for="codigoCargo">Código do Cargo:</label><br>
+          <input id="codigoCargo" type="number"><br><br>
+        
+          <label for="salarioAtual">Salário Atual (R$):</label><br>
+          <input id="salarioAtual" type="number"><br><br>
+        
+          <button id="btCalcularSalario">Calcular Novo Salário</button>
+        
+          <p id="CalculoSalario"></p>
+       
+        <h2>Tabela de Cargos e Aumentos</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Cargo</th>
+              <th>Percentual de Aumento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>101</td>
+              <td>Gerente</td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Engenheiro</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Técnico</td>
+              <td>30%</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>Demais cargos</td>
+              <td>40%</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <br><hr><br>
+
+  <div class="todos">
+    <h1>Calculadora de Crédito Bancário</h1>
+
+      <label for="inputsaldo">Saldo médio do último ano:</label><br>
+      <input id="inputsaldo" type="number"><br><br>
+      <button id="btVerCredito">Calcular credito</button>
+      <p id="resultadoCredito"></p>
+    
+    <br>
+
+    <h3>Tabela de Crédito</h3>
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Saldo Médio</th>
+        <th>Percentual de Crédito</th>
+      </tr>
+      <tr>
+        <td>De 0 a 200</td>
+        <td>Nenhum crédito</td>
+      </tr>
+      <tr>
+        <td>De 201 a 400</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>De 401 a 600</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>Acima de 601</td>
+        <td>40%</td>
+      </tr>
+    </table>
+    </div>
+    <br><hr><br>
+
+    <div class="todos">
+      <h1>Calculadora de Lanche</h1>
+  
+      <label for="inputCodigoLanche">Código do item:</label><br>
+      <input id="inputCodigoLanche" type="number" /><br><br>
+  
+      <label for="inputQuantidade">Quantidade:</label><br>
+      <input id="inputQuantidade" type="number"/><br><br>
+  
+      <button id="btCalcularLanches">Calcular preço</button>
+  
+      <p id="TotalGeral"></p>
+  
+      <h3>Cardápio</h3>
+      <table>
+        <tr>
+          <th>Código</th>
+          <th>Produto</th>
+          <th>Preço (R$)</th>
+        </tr>
+        <tr><td>1</td><td>Cachorro Quente</td><td>11,00</td></tr>
+        <tr><td>2</td><td>Bauru</td><td>8,50</td></tr>
+        <tr><td>3</td><td>Misto Quente</td><td>8,00</td></tr>
+        <tr><td>4</td><td>Hamburguer</td><td>9,00</td></tr>
+        <tr><td>5</td><td>Cheeseburguer</td><td>10,00</td></tr>
+        <tr><td>6</td><td>Refrigerante</td><td>4,50</td></tr>
+      </table>
+    </div>
+    <br><hr><br>
+        <div class="todos">
+          <h1>Sistema de Vendas</h1>
+          <p>Condicoes de pagamento:</p>
+          <ol type="A">
+            <li>A vista em dinheiro ou cheque, recebe 10% de desconto</li>
+            <li>A vista no cartao de credito, recebe 15% de desconto</li>
+            <li>Em duas vezes, preco normal de etiqueta sem juros</li>
+            <li>Em duas vezes, preco normal de etiqueta mais juros de 10%</li>
+          </ol>
+      
+          <label for="inputPreco">Preço do Produto (R$):</label><br>
+          <input id="inputPreco" type="number"><br><br>
+      
+          <label for="inputCondicao">Condição de Pagamento (A, B, C, D):</label><br>
+          <input id="inputCondicao" type="text"><br><br>
+      
+          <button id="btresultadoVendas">Calcular</button>
+      
+          <p id="ResultadoVendas"></p>
+        </div>
+      <br><hr><br>
+
+      <div class="todos">
+        <h1>Sistema de Pagamentos</h1>
+      
+        <p>Niveis dos professores:</p>
+        <ol type="I">
+          <li>Professor Nivel 1: R$12,00 por hora/aula</li>
+          <li>Professor Nivel 2: R$17,00 por hora/aula</li>
+          <li>Professor Nivel 3: R$25,00 por hora/aula</li>
+        </ol>
+      
+        <label for="inputNivel">Nivel do Professor (1, 2 ou 3):</label><br>
+        <input id="inputNivel" type="number" min="1" max="3"><br><br>
+      
+        <label for="inputHoras">Quantidade de horas/aula por semana:</label><br>
+        <input id="inputHoras" type="number" min="0"><br><br>
+      
+        <button id="btCalcularSal">Calcular Salario</button>
+      
+        <p id="ValoresSalarios"></p>
+      </div>
+<script src="trabalho2.js"></script>
+</body>
+</html>
